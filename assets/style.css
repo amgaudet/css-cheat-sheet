@@ -1,0 +1,43 @@
+header {
+    text-align: center;
+    padding-top: 24px;
+}
+
+ main {
+     display:flex;
+     flex-wrap:wrap;
+   
+}
+
+main .box{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+    height: 300px;
+    border: 4px dotted black;
+    padding: 0 20px;
+    margin: 40px;
+
+}
+
+h3 {
+    font-size: 24px;
+    padding: 24px;
+    border: 2px solid black;
+    margin: 0;
+    transform:translatey(-50%);
+    background-color: white;
+}
+
+section {
+    text-align: center;
+    margin-top: 24px;
+    flex-wrap: wrap;
+    transform:translateY(-25%)
+}
+
+footer {
+    text-align:center;
+}
